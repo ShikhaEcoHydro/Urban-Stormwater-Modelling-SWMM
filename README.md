@@ -45,26 +45,30 @@ Rainfall measured at a single gauge may not reflect spatial variability across t
 ---
 
 ## Repository Structure
-SWMM-Stormwater-Analysis/
-├── script/
-│   └── Plot.py                  ← Python plotting script
+```
+SWMM_Runoff_Analysis/
+│
+├── swmm_model/
+│   ├── model_initial.inp
+│   ├── model_calibrated_PN2.inp
+│   └── model_validated_PN1.inp
+│
 ├── data/
-│   └── Data.xlsx                ← Input data (flow, rainfall, TSS)
-├── swmm_files/
-│   ├── input/
-│   │   └── model_initial.inp
-│   ├── calibration/
-│   │   └── model_calibrated_PN2.inp
-│   └── validation/
-│       └── model_validated_PN1.inp
+│   ├── rainfall_flow_PN1.xlsx
+│   ├── rainfall_flow_PN2.xlsx
+│   └── tss_observed.xlsx
+│
+├── scripts/
+│   └── plot_results.py
+│
 ├── plots/
 │   ├── hydrographs/
 │   ├── sensitivity/
-│   ├── tss/
+│   ├── tss_pollutographs/
 │   └── scatter/
-└── thesis/
-└── TH_Lubeck_Thesis_Deepshikha.pdf
-
+│
+└── README.md
+```
 ## Model Performance
 
 ### Runoff Quantity
