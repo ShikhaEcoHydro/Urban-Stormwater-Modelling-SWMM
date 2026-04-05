@@ -190,7 +190,3 @@ This repository is shared for academic reference. Please cite the thesis if you 
 
 > Srivastava, D. (2025). *Establishment of a methodology for determining stormwater discharges based on hydrodynamic rainfall-runoff sewer network simulations.* Master's Thesis, Technische Hochschule Lübeck.
 ---
-
-## License
-This repository is shared for academic reference. Please cite the thesis if you use this work:
-Srivastava, D. (2025). Establishment of a methodology for determining stormwater discharges based on hydrodynamic rainfall-runoff sewer network simulations. Master's Thesis, Technische Hochschule Lübeck.
